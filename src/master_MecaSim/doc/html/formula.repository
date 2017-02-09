@@ -1,0 +1,17 @@
+\form#0:$ \vec{f}_i(t) = \sum_{j\mid(i,j)\in E} \left[\vec{f}^{e}_{i,j}(t) + \vec{f}^{v}_{i,j}(t) \right] \: + m_i \vec{g} +\: \vec{f}_{externe}(t),$
+\form#1:$ \left\{ \begin{array}{lcl} \vec{f}^{e}_{i,j}(t) &=& k_{ij} \left(\|x_i(t) - x_j(t)\| - l_{ij}\right)\; \vec{u}_{ij}(t),\\ \vec{f}^{v}_{i,j}(t) &=& {\nu}_{ij} \left(v_i(t) - v_j(t)\right) \; \vec{u}_{ij}(t) \; \vec{u}_{ij}(t), \end{array} \right. $
+\form#2:$k_{ij}$
+\form#3:${\nu}_{ij}$
+\form#4:$l_{ij}$
+\form#5:$\vec{g}$
+\form#6:$\vec{u}_{ij}(t)$
+\form#7:$ \vec{u}_{ij}(t) = \frac{x_i(t) - x_j(t)}{\|x_i(t) - x_j(t)\|} $
+\form#8:$ a_i = \frac{f_i}{m_i} $
+\form#9:$a_i$
+\form#10:$f_i $
+\form#11:$m_i $
+\form#12:$ \begin{array}{lr} \left\{ \begin{array}{ccl} v(t_0) &=& v_0\\ v(\frac{h}{2}) &=& v_0 + \frac{h}{2}v'_0\\ x(t_0) &=& x_0 \end{array} \right., & \left\{ \begin{array}{ccl} v(t+\frac{h}{2}) &=& v(t-\frac{h}{2}) + hv'(t) \\ x(t+h) &=& x(t) + hv(t+\frac{h}{2}) \end{array} \right.. \end{array} $
+\form#13:$\vec{n} = \frac{\vec{AB} \wedge \vec{AC}}{\| \vec{AB} \wedge \vec{AC} \|}$
+\form#14:$\vec{AB} = \left( \begin{array}{c} x_B - x_A\\ y_B - y_A \\ z_B - z_A \end{array} \right) $
+\form#15:$ \|\vec{u}\| = \sqrt{x^2 + y^2 + z^2} $
+\form#16:$ \vec{u} $
